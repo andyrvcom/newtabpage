@@ -1,10 +1,13 @@
-# NewTabPage - Chrome New Tab Extension
+# NewTabPage — AI Workspaces, Widgets & Speed Dial for Chrome
 
-**A beautiful, fast, and privacy-first new tab page for Chrome.** Organize your browser tabs, AI tools, bookmarks, and projects into clean workspaces — like a personal dashboard every time you open a new tab.
+**A customizable New Tab Page, Speed Dial, Start Page, Bookmark Manager, and Productivity Dashboard for Chrome.**
 
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ladnoighalojhajpbbachmcjmfbkileh?label=Chrome%20Web%20Store&logo=googlechrome)](https://chrome.google.com/webstore/detail/ladnoighalojhajpbbachmcjmfbkileh)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue.svg)](https://developer.chrome.com/docs/extensions/mv3/)
+Organize websites, bookmarks, AI tools, projects, and browser tabs into focused workspaces designed for modern productivity. Replace Chrome's default new tab page with a fast, beautiful, and privacy-first dashboard.
+
+🌐 Website: https://newtabpage.app
+
+🛍 Chrome Web Store:
+https://chromewebstore.google.com/detail/new-tab-page/ladnoighalojhajpbbachmcjmfbkileh
 
 ![NewTabPage Screenshot](demo/screenshot.png)
 
@@ -12,128 +15,124 @@
 
 ## What is NewTabPage?
 
-NewTabPage replaces Chrome's default new tab page with a fully customizable workspace dashboard. Group your most visited sites, AI tools, and bookmarks by project or context. Add productivity widgets like a world clock, weather, stock prices, and browsing activity charts — all without leaving your new tab.
+NewTabPage replaces Chrome's default new tab page with a customizable workspace dashboard.
 
-**Perfect for:** developers, designers, remote workers, AI power users, productivity enthusiasts.
+Create dedicated workspaces for work, personal projects, research, AI tools, learning, or daily browsing. Organize links into groups, add useful widgets, track browsing activity locally, and keep everything accessible from a single dashboard.
+
+Unlike traditional speed dial extensions, NewTabPage focuses on organization, workflows, and productivity while keeping your data private and stored locally.
+
+Perfect for developers, designers, founders, students, researchers, remote teams, and AI power users.
 
 ---
 
 ## Features
 
 ### 🗂 Workspaces & Groups
-- Create multiple **folders** (workspaces) — switch between Work, Personal, Research with one click
-- Organize sites into **groups** with 3 view modes: **List**, **Icons**, **Cards**
-- Drag & drop to reorder groups and sites
-- Section titles to organize within groups
+
+- Create multiple workspaces for different projects and contexts
+- Organize links into groups
+- List, Icons, and Cards view modes
+- Drag & drop groups and links
+- Create sections within groups
+- Quickly switch between workflows
+
+### 🤖 AI Workspaces
+
+- Organize ChatGPT, Claude, Gemini, Perplexity, Grok, and other AI tools
+- Create dedicated AI workspaces
+- Keep prompts, resources, and tools together
+- Access your favorite AI tools from every new tab
 
 ### 🧩 Widgets
-- **🕐 Clock** — multiple world time zones
-- **🌤 Weather** — current conditions with auto location or custom city, °C / °F
-- **📈 Stocks** — real-time price chart & ticker (top stocks, crypto, or custom symbols)
-- **🎨 Pantone Color** — random color of the day with hex code
-- **⬛ Activity** — browsing activity heatmap grid (last 30 or 90 days)
-- **🗓 Life in Weeks** — your life visualized in a week grid
 
-### 📊 Analytics
-- Page visits & unique pages counter
-- Top sites by visit count with favicons
-- Activity by day (bar chart) and by hour (heatmap)
-- Period filter: Yesterday / 7 days / 30 days
+- Clock with multiple time zones
+- Weather widget
+- Stocks & crypto tracker
+- Pantone Color of the Day
+- Browsing activity heatmap
+- Life in Weeks visualization
+
+### 📊 Personal Analytics
+
+- Track page visits locally
+- View top websites
+- Activity by day and hour
+- Daily browsing insights
+- No external analytics services
 
 ### 🎨 Customization
-- **Dark / Light / Auto** theme
-- **Custom background image** with adaptive backdrop blur on groups
-- **Open in new tab** toggle for all links
-- Per-group settings: view type, show/hide URL, show/hide names
+
+- Dark, Light, and Auto themes
+- Custom background images
+- Adaptive blur and contrast
+- Custom group layouts
+- Open links in current or new tab
 
 ### 🌍 Internationalization
-- 7 languages: **English, Español, Português (BR), Deutsch, Français, 日本語, 中文 (简体)**
-- Auto-detects browser language or manual selection
-- Fully localized UI including tooltips, modals, widgets, and toasts
+
+- English
+- Español
+- Português (Brasil)
+- Deutsch
+- Français
+- 日本語
+- 中文（简体）
 
 ### 🔒 Privacy First
-- **No data leaves your browser** — everything stored locally via Chrome Storage & IndexedDB
-- No analytics, no tracking, no external accounts
-- No server-side processing — all logic runs client-side
+
+- No accounts required
+- No cloud sync
+- No tracking
+- No analytics
+- No data collection
+- Everything stored locally in Chrome Storage and IndexedDB
+
+---
+
+## Compare NewTabPage
+
+| Feature | NewTabPage | Toby | Start.me | Momentum |
+|----------|----------|----------|----------|----------|
+| Workspaces | ✅ | ✅ | ❌ | ❌ |
+| Widgets | ✅ | ❌ | ✅ | Limited |
+| Local Storage | ✅ | ❌ | ❌ | ❌ |
+| AI Tool Organization | ✅ | ❌ | ❌ | ❌ |
+| Open Source | ✅ | ❌ | ❌ | ❌ |
+| Privacy First | ✅ | Partial | Partial | Partial |
+
+---
+
+## Popular Use Cases
+
+### Developer Workspace
+Organize documentation, GitHub repositories, dashboards, monitoring tools, and development environments.
+
+### AI Workspace
+Create a dedicated dashboard for ChatGPT, Claude, Gemini, Perplexity, and other AI tools.
+
+### Startup Dashboard
+Track analytics, marketing tools, customer support, social media, and product development from one place.
+
+### Student Workspace
+Group courses, notes, research materials, and learning resources.
+
+### Personal Start Page
+Create a clean homepage with bookmarks, widgets, weather, and favorite websites.
+
+### Research Workspace
+Keep articles, references, tools, and resources organized by topic or project.
 
 ---
 
 ## Install
 
 ### Chrome Web Store
-[**→ Install from Chrome Web Store**](https://chrome.google.com/webstore/detail/ladnoighalojhajpbbachmcjmfbkileh)
 
-### Load from Source (Developer Mode)
-```bash
-git clone https://github.com/malinovskyi/newtabpage.git
-```
-1. Open `chrome://extensions`
-2. Enable **Developer mode** (top right)
-3. Click **Load unpacked** → select the `_extension` folder
+Install directly from the Chrome Web Store:
 
----
+https://chromewebstore.google.com/detail/new-tab-page/ladnoighalojhajpbbachmcjmfbkileh
 
-## Project Structure
-
-```
-_extension/
-├── newtab.html          # Main HTML shell
-├── newtab.js            # All app logic (vanilla JS, no framework)
-├── styles.css           # All styles
-├── favicon-init.js      # Theme detection + adaptive favicon (runs in <head>)
-├── inline-init.js       # Icons + i18n initialization
-├── background.js        # Service worker (MV3)
-├── manifest.json        # Extension manifest
-├── icons/               # Extension icons (16, 48, 128px) + favicon.svg
-├── _locales/            # i18n translations
-│   ├── en/messages.json
-│   ├── es/messages.json
-│   ├── pt_BR/messages.json
-│   ├── de/messages.json
-│   ├── fr/messages.json
-│   ├── ja/messages.json
-│   └── zh_CN/messages.json
-└── [vendor]             # sortable.min.js, coloris.min.js, lucide.min.js
-```
-
----
-
-## Tech Stack
-
-| | |
-|---|---|
-| **Runtime** | Vanilla JS — no framework, no bundler |
-| **Extension** | Chrome MV3 |
-| **Drag & Drop** | [SortableJS](https://sortablejs.github.io/Sortable/) |
-| **Color Picker** | [Coloris](https://github.com/mdbassit/Coloris) |
-| **Icons** | [Lucide](https://lucide.dev/) |
-| **Storage** | Chrome Storage API + IndexedDB |
-| **Chrome APIs** | `storage`, `history`, `tabs`, `bookmarks`, `geolocation` |
-
----
-
-## Contributing
-
-Pull requests are welcome! For major changes, please open an issue first.
+### Load from Source
 
 ```bash
-# Fork & clone
-git clone https://github.com/YOUR_USERNAME/newtabpage.git
-
-# Create a branch
-git checkout -b feature/my-feature
-
-# Make changes, then open a PR
-```
-
-### Adding a new language
-1. Create `_extension/_locales/{locale}/messages.json`
-2. Copy from `en/messages.json` and translate all `message` values
-3. Add locale to `SUPPORTED_LANGS` array in `newtab.js`
-4. Add `<option>` to the language `<select>` in `newtab.html`
-
----
-
-## License
-
-[MIT](LICENSE) © [Andy Malinovskyi](https://x.com/malinovskyi)
+git clone https://github.com/andyrvcom/newtabpage.git
