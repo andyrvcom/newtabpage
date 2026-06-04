@@ -1,4 +1,4 @@
-# NewTabPage — Chrome New Tab Extension
+# NewTabPage - Chrome New Tab Extension
 
 **A beautiful, fast, and privacy-first new tab page for Chrome.** Organize your browser tabs, AI tools, bookmarks, and projects into clean workspaces — like a personal dashboard every time you open a new tab.
 
