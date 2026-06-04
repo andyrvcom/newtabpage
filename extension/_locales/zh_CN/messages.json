@@ -1,0 +1,593 @@
+{
+  "extName": {
+    "message": "NewTabPage - 标签页整理、AI 工具与工作区"
+  },
+  "extDescription": {
+    "message": "将标签页、AI 工具、书签和项目整理到清晰的工作区中。快速、简洁、注重隐私。"
+  },
+  "pages": {
+    "message": "页面"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "delete": {
+    "message": "删除"
+  },
+  "add": {
+    "message": "添加"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "edit": {
+    "message": "编辑"
+  },
+  "rename": {
+    "message": "重命名"
+  },
+  "remove": {
+    "message": "移除"
+  },
+  "duplicate": {
+    "message": "复制"
+  },
+  "tooltipAnalytics": {
+    "message": "统计分析"
+  },
+  "tooltipSettings": {
+    "message": "设置"
+  },
+  "lightMode": {
+    "message": "浅色模式"
+  },
+  "darkMode": {
+    "message": "深色模式"
+  },
+  "bgImageSet": {
+    "message": "自定义图片集"
+  },
+  "settings": {
+    "message": "设置"
+  },
+  "theme": {
+    "message": "主题"
+  },
+  "themeDesc": {
+    "message": "浅色或深色模式"
+  },
+  "themeLight": {
+    "message": "浅色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "themeAuto": {
+    "message": "自动"
+  },
+  "openInNewTab": {
+    "message": "在新标签页中打开"
+  },
+  "openInNewTabDesc": {
+    "message": "链接始终在新标签页中打开"
+  },
+  "background": {
+    "message": "背景"
+  },
+  "noImage": {
+    "message": "无图片"
+  },
+  "chooseImage": {
+    "message": "选择"
+  },
+  "removeImage": {
+    "message": "移除"
+  },
+  "language": {
+    "message": "语言"
+  },
+  "languageDesc": {
+    "message": "界面语言"
+  },
+  "createdBy": {
+    "message": "创建者"
+  },
+  "analytics": {
+    "message": "统计分析"
+  },
+  "yesterday": {
+    "message": "昨天"
+  },
+  "days7": {
+    "message": "7 天"
+  },
+  "days30": {
+    "message": "30 天"
+  },
+  "loadingHistory": {
+    "message": "正在加载历史记录…"
+  },
+  "pageVisits": {
+    "message": "页面访问量"
+  },
+  "uniquePages": {
+    "message": "独立页面数"
+  },
+  "topSites": {
+    "message": "常用网站"
+  },
+  "activityByDay": {
+    "message": "按天统计活动"
+  },
+  "activityByHour": {
+    "message": "按小时统计活动"
+  },
+  "daySun": {
+    "message": "周日"
+  },
+  "dayMon": {
+    "message": "周一"
+  },
+  "dayTue": {
+    "message": "周二"
+  },
+  "dayWed": {
+    "message": "周三"
+  },
+  "dayThu": {
+    "message": "周四"
+  },
+  "dayFri": {
+    "message": "周五"
+  },
+  "daySat": {
+    "message": "周六"
+  },
+  "addSiteTitle": {
+    "message": "添加网站"
+  },
+  "urlLabel": {
+    "message": "网址"
+  },
+  "urlPlaceholder": {
+    "message": "figma.com 或粘贴网址"
+  },
+  "titleLabel": {
+    "message": "标题"
+  },
+  "titleAutoFill": {
+    "message": "自动从网址获取"
+  },
+  "openTabs": {
+    "message": "已打开的标签页"
+  },
+  "history": {
+    "message": "历史记录"
+  },
+  "popular": {
+    "message": "热门"
+  },
+  "addSiteBtn": {
+    "message": "添加网站"
+  },
+  "siteErrorTitle": {
+    "message": "请输入标题。"
+  },
+  "siteErrorUrl": {
+    "message": "请输入网址。"
+  },
+  "siteErrorUrlFormat": {
+    "message": "网址格式不正确。"
+  },
+  "editSiteTitle": {
+    "message": "编辑网站"
+  },
+  "renameTab": {
+    "message": "重命名标签页"
+  },
+  "tabName": {
+    "message": "标签页名称"
+  },
+  "tabNamePlaceholder": {
+    "message": "例如：工作"
+  },
+  "addSectionTitle": {
+    "message": "添加分区标题"
+  },
+  "renameSectionTitle": {
+    "message": "重命名标题"
+  },
+  "sectionTitleLabel": {
+    "message": "标题"
+  },
+  "sectionTitlePlaceholder": {
+    "message": "例如：社交"
+  },
+  "confirmDeleteFolderTitle": {
+    "message": "删除\"$1\"？"
+  },
+  "confirmDeleteFolderDesc": {
+    "message": "此文件夹中的所有分组和网站都将被移除。"
+  },
+  "confirmDeleteGroupTitle": {
+    "message": "删除\"$1\"？"
+  },
+  "confirmDeleteGroupDesc": {
+    "message": "所有网站都将被移除。"
+  },
+  "groupSettingsTitle": {
+    "message": "分组设置"
+  },
+  "groupNamePlaceholder": {
+    "message": "分组名称"
+  },
+  "groupShowUrl": {
+    "message": "显示网址"
+  },
+  "groupShowNames": {
+    "message": "显示名称"
+  },
+  "viewList": {
+    "message": "列表"
+  },
+  "viewIcons": {
+    "message": "图标"
+  },
+  "viewCards": {
+    "message": "卡片"
+  },
+  "tooltipDeleteGroup": {
+    "message": "删除分组"
+  },
+  "tooltipAddGroup": {
+    "message": "添加分组"
+  },
+  "tooltipAddSite": {
+    "message": "添加网站"
+  },
+  "tooltipAddWidget": {
+    "message": "添加小组件"
+  },
+  "tooltipNewFolder": {
+    "message": "新建文件夹"
+  },
+  "addWebsite": {
+    "message": "添加网站"
+  },
+  "addWidget": {
+    "message": "添加小组件"
+  },
+  "deleteGroup": {
+    "message": "删除分组"
+  },
+  "addTitleShort": {
+    "message": "添加标题"
+  },
+  "deleteFolderMenu": {
+    "message": "删除文件夹"
+  },
+  "newGroup": {
+    "message": "新建分组"
+  },
+  "renameFolder": {
+    "message": "重命名文件夹"
+  },
+  "ctxOpenNewTab": {
+    "message": "在新标签页中打开"
+  },
+  "ctxEdit": {
+    "message": "编辑"
+  },
+  "ctxDuplicate": {
+    "message": "复制"
+  },
+  "ctxCopyUrl": {
+    "message": "复制网址"
+  },
+  "ctxRemove": {
+    "message": "移除"
+  },
+  "ctxRename": {
+    "message": "重命名"
+  },
+  "ctxMoveToFolder": {
+    "message": "移至文件夹"
+  },
+  "ctxDeleteGroup": {
+    "message": "删除分组"
+  },
+  "ctxAddWebsite": {
+    "message": "添加网站"
+  },
+  "ctxSettings": {
+    "message": "设置"
+  },
+  "ctxAddGroup": {
+    "message": "添加分组"
+  },
+  "toastStorageError": {
+    "message": "无法保存更改 — 存储错误"
+  },
+  "toastUrlCopied": {
+    "message": "网址已复制"
+  },
+  "toastDuplicated": {
+    "message": "已复制"
+  },
+  "toastTitleAdded": {
+    "message": "标题已添加"
+  },
+  "toastTitleUpdated": {
+    "message": "标题已更新"
+  },
+  "toastSiteUpdated": {
+    "message": "网站已更新"
+  },
+  "toastWidgetAdded": {
+    "message": "小组件已添加"
+  },
+  "toastWidgetUpdated": {
+    "message": "小组件已更新"
+  },
+  "toastDeletedFolder": {
+    "message": "文件夹 $1 已删除"
+  },
+  "toastDeletedGroup": {
+    "message": "$1 已删除"
+  },
+  "toastMovedTo": {
+    "message": "已移至 $1"
+  },
+  "toastRemovedSite": {
+    "message": "$1 已移除"
+  },
+  "toastFolderCreated": {
+    "message": "文件夹 $1 已创建"
+  },
+  "toastGroupAdded": {
+    "message": "分组 $1 已添加"
+  },
+  "toastAddedSite": {
+    "message": "$1 已添加"
+  },
+  "toastRemovedTitle": {
+    "message": "$1 已移除"
+  },
+  "toastRemovedWidget": {
+    "message": "小组件 $1 已移除"
+  },
+  "addWidgetTitle": {
+    "message": "添加小组件"
+  },
+  "widgetClockLabel": {
+    "message": "时钟"
+  },
+  "widgetClockDesc": {
+    "message": "世界时区"
+  },
+  "widgetWeatherLabel": {
+    "message": "天气"
+  },
+  "widgetWeatherDesc": {
+    "message": "当前天气状况"
+  },
+  "widgetPantoneLabel": {
+    "message": "Pantone® 色彩"
+  },
+  "widgetPantoneDesc": {
+    "message": "每日随机颜色"
+  },
+  "widgetStocksLabel": {
+    "message": "股票"
+  },
+  "widgetStocksDesc": {
+    "message": "价格图表和代码"
+  },
+  "widgetActivityLabel": {
+    "message": "活动记录"
+  },
+  "widgetActivityDesc": {
+    "message": "浏览活动网格"
+  },
+  "widgetLifeLabel": {
+    "message": "人生周数"
+  },
+  "widgetLifeDesc": {
+    "message": "可视化你的人生"
+  },
+  "preview": {
+    "message": "预览"
+  },
+  "stocksTypeLabel": {
+    "message": "类型"
+  },
+  "editClockTitle": {
+    "message": "编辑时钟"
+  },
+  "clockAddZone": {
+    "message": "+ 添加时区"
+  },
+  "clockShowDate": {
+    "message": "显示日期"
+  },
+  "clockSearchTimezone": {
+    "message": "搜索时区…"
+  },
+  "tooltipClockRemove": {
+    "message": "移除"
+  },
+  "editWeatherTitle": {
+    "message": "编辑天气"
+  },
+  "weatherCityLabel": {
+    "message": "城市（留空以自动获取位置）"
+  },
+  "weatherCityPlaceholder": {
+    "message": "例如：北京、上海、广州"
+  },
+  "weatherCelsius": {
+    "message": "摄氏度 °C"
+  },
+  "weatherFahrenheit": {
+    "message": "华氏度 °F"
+  },
+  "weatherLoading": {
+    "message": "正在加载天气…"
+  },
+  "weatherUnavailable": {
+    "message": "天气信息不可用"
+  },
+  "weatherCityNotFound": {
+    "message": "未找到该城市"
+  },
+  "weatherLocationPrompt": {
+    "message": "请允许位置访问或在编辑中设置城市"
+  },
+  "editStocksTitle": {
+    "message": "编辑股票"
+  },
+  "stocksTopStocks": {
+    "message": "热门股票"
+  },
+  "stocksTopCrypto": {
+    "message": "热门加密货币"
+  },
+  "stocksCustom": {
+    "message": "自定义"
+  },
+  "stocksPlaceholder": {
+    "message": "例如：AAPL、BTC-USD"
+  },
+  "editActivityTitle": {
+    "message": "编辑活动记录"
+  },
+  "activityLast30Days": {
+    "message": "最近 30 天"
+  },
+  "activityLast90Days": {
+    "message": "最近 90 天"
+  },
+  "activityNoData": {
+    "message": "此时段暂无数据"
+  },
+  "activityNoAccess": {
+    "message": "无法访问历史记录"
+  },
+  "tooltipPantoneRefresh": {
+    "message": "换个颜色"
+  },
+  "tooltipPantoneCopy": {
+    "message": "复制十六进制值"
+  },
+  "transparent": {
+    "message": "透明"
+  },
+  "customColor": {
+    "message": "自定义颜色"
+  },
+  "editLifeTitle": {
+    "message": "人生周数"
+  },
+  "lifeDobLabel": {
+    "message": "出生日期"
+  },
+  "lifeExpLabel": {
+    "message": "预期寿命（年）"
+  },
+  "lifeSetDob": {
+    "message": "请在编辑中设置出生日期"
+  },
+  "dobDay": {
+    "message": "日"
+  },
+  "dobMonth": {
+    "message": "月"
+  },
+  "dobYear": {
+    "message": "年"
+  },
+  "groupAllTabs": {
+    "message": "所有标签页"
+  },
+  "folderBookmarks": {
+    "message": "书签"
+  },
+  "defaultFolder": {
+    "message": "文件夹"
+  },
+  "bookmarkOthers": {
+    "message": "其他"
+  },
+  "weatherFeelsLike": {
+    "message": "体感温度 $1"
+  },
+  "weatherGeocodingFailed": {
+    "message": "地理位置解析失败"
+  },
+  "onboardingTitle": {
+    "message": "新标签页"
+  },
+  "onboardingSub": {
+    "message": "将混乱的标签页变成整洁有序的工作区。"
+  },
+  "onboardingSetup": {
+    "message": "设置新标签页"
+  },
+  "addNewGroup": {
+    "message": "添加新分组"
+  },
+  "addNewFolder": {
+    "message": "添加新文件夹"
+  },
+  "startEmpty": {
+    "message": "从空白开始"
+  },
+  "blankWorkspace": {
+    "message": "空白工作区"
+  },
+  "blankGroup": {
+    "message": "空白分组"
+  },
+  "blankFolder": {
+    "message": "空白文件夹"
+  },
+  "currentlyOpen": {
+    "message": "当前已打开"
+  },
+  "topSitesCard": {
+    "message": "常用网站"
+  },
+  "recentlyVisited": {
+    "message": "最近访问"
+  },
+  "aiWorkspaceName": {
+    "message": "AI 工作区"
+  },
+  "aiWorkspaceMeta": {
+    "message": "$1 个分组 · $2 个工具"
+  },
+  "importOpenTabs": {
+    "message": "$1 个已打开的标签页"
+  },
+  "importBookmarks": {
+    "message": "$1 个书签"
+  },
+  "importFolders": {
+    "message": "$1 个文件夹"
+  },
+  "importMostVisited": {
+    "message": "$1 个常用网站"
+  },
+  "importRecentHistory": {
+    "message": "$1 条最近历史记录"
+  },
+  "mySpace": {
+    "message": "我的空间"
+  },
+  "newFolderName": {
+    "message": "新建文件夹"
+  }
+}

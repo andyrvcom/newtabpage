@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>New Tab</title>
+  <style>html,body{background:#fff}@media(prefers-color-scheme:dark){html,body{background:#000}}</style>
+  <script src="favicon-init.js"></script>
+  <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="coloris.min.css"/>
+</head>
+<body>
+
+  <!-- Global analytics — sits behind .page, revealed when .page slides down -->
+  <div class="global-analytics" id="globalAnalytics">
+    <div class="global-analytics__inner">
+      <div class="global-analytics__header">
+        <h2 class="global-analytics__title" data-i18n="analytics">Analytics</h2>
+        <div class="global-analytics__header-right">
+          <div class="analytics-periods" id="analyticsPeriods">
+            <button class="period-btn" data-days="1" data-i18n="yesterday">Yesterday</button>
+            <button class="period-btn" data-days="7" data-i18n="days7">7 days</button>
+            <button class="period-btn is-active" data-days="30" data-i18n="days30">30 days</button>
+          </div>
+          <button class="global-analytics__close btn btn-ghost btn-icon" id="closeAnalyticsBtn">
+            <span data-li='LI("X",16)'></span>
+          </button>
+        </div>
+      </div>
+      <div class="global-analytics__body" id="analyticsBody">
+        <div class="analytics-loading" data-i18n="loadingHistory">Loading history…</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Global settings — sits behind .page, revealed when .page slides down -->
+  <div class="global-settings" id="globalSettings">
+    <div class="global-settings__inner">
+      <div class="global-settings__header">
+        <h2 class="global-settings__title" data-i18n="settings">Settings</h2>
+        <button class="global-settings__close btn btn-ghost btn-icon" id="closeSettingsBtn">
+          <span data-li='LI("X",16)'></span>
+        </button>
+      </div>
+      <div class="global-settings__body">
+
+        <!-- Theme card -->
+        <div class="settings-card settings-card--row">
+          <div class="settings-card__text">
+            <p class="settings-card__label" data-i18n="theme">Theme</p>
+            <p class="settings-card__desc" data-i18n="themeDesc">Light or dark mode</p>
+          </div>
+          <div class="settings-theme-btns" id="settingsThemeBtns">
+            <button class="theme-opt" data-theme-val="light" data-i18n="themeLight">Light</button>
+            <button class="theme-opt" data-theme-val="dark" data-i18n="themeDark">Dark</button>
+            <button class="theme-opt" data-theme-val="auto" data-i18n="themeAuto">Auto</button>
+          </div>
+        </div>
+
+        <!-- Open in new tab card -->
+        <div class="settings-card settings-card--row">
+          <div class="settings-card__text">
+            <p class="settings-card__label" data-i18n="openInNewTab">Open in new tab</p>
+            <p class="settings-card__desc" data-i18n="openInNewTabDesc">Links always open in a new tab</p>
+          </div>
+          <label class="switch"><input type="checkbox" id="settingsNewTab"/><span class="switch__track"></span></label>
+        </div>
+
+        <!-- Background card -->
+        <div class="settings-card settings-card--row" id="settingsBgRow">
+          <div class="settings-card__text">
+            <p class="settings-card__label" data-i18n="background">Background</p>
+            <p class="settings-card__desc" id="bgDesc" data-i18n="noImage">No image</p>
+          </div>
+          <div style="display:flex;gap:0.5rem;align-items:center">
+            <label class="btn settings-btn-outline btn-sm" id="bgChooseBtn" data-i18n="chooseImage" style="cursor:pointer">
+              Choose
+              <input type="file" id="bgFileInput" accept="image/*" style="display:none"/>
+            </label>
+            <button class="btn settings-btn-ghost btn-sm" id="bgRemoveBtn" data-i18n="removeImage" hidden>Remove</button>
+          </div>
+        </div>
+
+
+        <!-- Language card -->
+        <div class="settings-card settings-card--row">
+          <div class="settings-card__text">
+            <p class="settings-card__label" data-i18n="language">Language</p>
+            <p class="settings-card__desc" data-i18n="languageDesc">Interface language</p>
+          </div>
+          <select class="settings-lang-select" id="settingsLangSelect">
+            <option value="auto">Auto</option>
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="pt_BR">Português (BR)</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+            <option value="ja">日本語</option>
+            <option value="zh_CN">中文 (简体)</option>
+          </select>
+        </div>
+
+        <div class="settings-footer">
+          <span><span data-i18n="createdBy">Created by</span> <a href="https://x.com/malinovskyi" target="_blank" rel="noopener noreferrer" class="settings-author-link">@malinovskyi</a></span>
+          <span class="settings-version">v0.0.7</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page">
+    <!-- Header: tabs left, toggle right -->
+    <header class="header">
+      <nav class="tabs" id="tabsNav">
+        <!-- tabs injected by JS -->
+      </nav>
+      <div class="header__actions">
+        <button class="btn btn-ghost btn-icon" id="analyticsBtn" aria-label="Analytics" data-tip="Analytics">
+          <span data-li='LI("BarChart2",20)'></span>
+        </button>
+        <button class="btn btn-ghost btn-icon" id="settingsBtn" aria-label="Settings" data-tip="Settings">
+          <span data-li='LI("Settings",20)'></span>
+        </button>
+        <button class="btn btn-ghost btn-icon" id="themeToggle" aria-label="Toggle theme"></button>
+      </div>
+    </header>
+
+    <!-- Rename tab modal (injected to body by JS) -->
+    <main class="canvas" id="canvas"></main>
+  </div>
+
+  <!-- ══ GROUP PICKER ══ -->
+  <div id="groupPickerOverlay" class="onboarding onboarding--picker" hidden>
+    <div class="onboarding__section">
+      <p class="onboarding__label" data-i18n="addNewGroup">Add new group</p>
+      <div class="onboarding__cards" id="groupPickerCards"></div>
+    </div>
+  </div>
+
+  <!-- ══ ADD SITE DIALOG ══ -->
+  <div class="overlay" id="siteOverlay" hidden>
+    <div class="modal">
+      <div class="modal__header">
+        <h2 class="modal__title" data-i18n="addSiteTitle">Add a site</h2>
+        <button class="modal__close" id="closeSiteBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+      <div class="modal__body">
+        <!-- URL field with favicon preview -->
+        <div class="field">
+          <label class="field__label" for="siteUrlIn" data-i18n="urlLabel">URL</label>
+          <div class="url-field">
+            <div class="url-field__icon" id="siteUrlIcon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="13" height="13"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+            </div>
+            <input class="field__input url-field__input" id="siteUrlIn" type="text" placeholder="figma.com or paste URL" data-i18n-placeholder="urlPlaceholder" autocomplete="off" spellcheck="false"/>
+          </div>
+        </div>
+        <div class="field">
+          <label class="field__label" for="siteTitleIn" data-i18n="titleLabel">Title</label>
+          <input class="field__input" id="siteTitleIn" type="text" placeholder="Auto-filled from URL" data-i18n-placeholder="titleAutoFill" autocomplete="off"/>
+        </div>
+        <!-- Tabbed suggestions: Open Tabs / History / Popular -->
+        <div class="suggestions" id="suggestions">
+          <div class="sugg-tabs" id="suggTabsEl">
+            <div class="pill-switcher__track" id="suggPillTrack">
+              <div class="pill-switcher__thumb" id="suggPillThumb"></div>
+              <button class="pill-switcher__btn active" data-tab="tabs" data-i18n="openTabs">Open tabs</button>
+              <button class="pill-switcher__btn" data-tab="history" data-i18n="history">History</button>
+              <button class="pill-switcher__btn" data-tab="popular" data-i18n="popular">Popular</button>
+            </div>
+          </div>
+          <div class="suggestions__list" id="suggestionsList"></div>
+        </div>
+        <p class="modal__error" id="siteError" hidden></p>
+      </div>
+      <div class="modal__footer">
+        <button class="btn btn-outline btn-sm" id="cancelSiteBtn" data-i18n="cancel">Cancel</button>
+        <button class="btn btn-default btn-sm" id="confirmSiteBtn" data-i18n="addSiteBtn">Add site</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ SITE SETTINGS DIALOG ══ -->
+  <div class="overlay" id="siteSettingsOverlay" hidden>
+    <div class="modal">
+      <div class="modal__header">
+        <h2 class="modal__title" data-i18n="editSiteTitle">Edit site</h2>
+        <button class="modal__close" id="closeSiteSettingsBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+      <div class="modal__body">
+        <div class="field">
+          <label class="field__label" for="editSiteTitleIn" data-i18n="titleLabel">Title</label>
+          <input class="field__input" id="editSiteTitleIn" type="text" placeholder="e.g. Figma" autocomplete="off"/>
+        </div>
+        <div class="field">
+          <label class="field__label" for="editSiteUrlIn" data-i18n="urlLabel">URL</label>
+          <div class="url-field">
+            <span class="url-field__prefix">https://</span>
+            <input class="field__input url-field__input" id="editSiteUrlIn" type="text" placeholder="figma.com" autocomplete="off" spellcheck="false"/>
+          </div>
+        </div>
+        <p class="modal__error" id="editSiteError" hidden></p>
+      </div>
+      <div class="modal__footer">
+        <button class="btn btn-outline btn-sm" id="cancelSiteSettingsBtn" data-i18n="cancel">Cancel</button>
+        <button class="btn btn-default btn-sm" id="saveSiteSettingsBtn" data-i18n="save">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ RENAME TAB MODAL ══ -->
+  <div class="overlay" id="renameTabOverlay" hidden>
+    <div class="modal modal--rename">
+      <div class="modal__header">
+        <h2 class="modal__title" data-i18n="renameTab">Rename tab</h2>
+        <button class="modal__close" id="closeRenameTabBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+      <div class="modal__body">
+        <div class="field">
+          <label class="field__label" for="renameTabInput" data-i18n="tabName">Tab name</label>
+          <input class="field__input" id="renameTabInput" type="text" placeholder="e.g. Work" data-i18n-placeholder="tabNamePlaceholder" autocomplete="off"/>
+        </div>
+      </div>
+      <div class="modal__footer">
+        <button class="btn btn-outline btn-sm" id="cancelRenameTabBtn" data-i18n="cancel">Cancel</button>
+        <button class="btn btn-default btn-sm" id="saveRenameTabBtn" data-i18n="save">Save</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ══ ADD TITLE MODAL ══ -->
+  <div class="overlay" id="addTitleOverlay" hidden>
+    <div class="modal modal--rename">
+      <div class="modal__header">
+        <h2 class="modal__title" data-i18n="addSectionTitle">Add section title</h2>
+        <button class="modal__close" id="closeAddTitleBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+      <div class="modal__body">
+        <div class="field">
+          <label class="field__label" for="addTitleInput" data-i18n="titleLabel">Title</label>
+          <input class="field__input" id="addTitleInput" type="text" placeholder="e.g. Social" data-i18n-placeholder="sectionTitlePlaceholder" autocomplete="off"/>
+        </div>
+      </div>
+      <div class="modal__footer">
+        <button class="btn btn-outline btn-sm" id="cancelAddTitleBtn" data-i18n="cancel">Cancel</button>
+        <button class="btn btn-default btn-sm" id="saveAddTitleBtn" data-i18n="add">Add</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ══ CONFIRM MODAL ══ -->
+  <div class="overlay" id="confirmOverlay" hidden>
+    <div class="modal modal--sm">
+      <div class="modal__header">
+        <h2 class="modal__title" id="confirmTitle">Delete group?</h2>
+        <!-- confirmTitle text is set dynamically by showConfirm() in JS -->
+      </div>
+      <div class="modal__body">
+        <p class="modal__desc" id="confirmDesc">This will permanently remove the group and all its sites.</p>
+      </div>
+      <div class="modal__footer">
+        <button class="btn btn-outline btn-sm" id="confirmCancelBtn" data-i18n="cancel">Cancel</button>
+        <button class="btn btn-destructive btn-sm" id="confirmOkBtn" data-i18n="delete">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ SETTINGS MODAL ══ -->
+
+  <!-- Toast container -->
+  <div class="toast-container" id="toastContainer"></div>
+  <div class="tip" id="tip" hidden></div>
+
+
+  <!-- ══ FOLDER PICKER ══ -->
+  <div id="folderPickerOverlay" class="onboarding onboarding--picker" hidden>
+    <div class="onboarding__section">
+      <p class="onboarding__label" data-i18n="addNewFolder">Add new folder</p>
+      <div class="onboarding__cards" id="folderPickerCards"></div>
+    </div>
+  </div>
+
+  <!-- ══ ONBOARDING ══ -->
+  <div id="onboardingOverlay" class="onboarding" hidden>
+    <div class="onboarding__hero">
+      <h1 class="onboarding__title" data-i18n="onboardingTitle">New Tab Page</h1>
+      <p class="onboarding__sub" data-i18n="onboardingSub">Turn your tab chaos into organized workspaces.</p>
+    </div>
+    <div class="onboarding__section">
+      <p class="onboarding__label" data-i18n="onboardingSetup">Set up your new tab</p>
+      <div class="onboarding__cards" id="onboardingCards"></div>
+    </div>
+  </div>
+
+  <script src="sortable.min.js"></script>
+  <script src="coloris.min.js"></script>
+  <script src="lucide.min.js"></script>
+  <script src="lucide-icons.js"></script>
+  <script src="inline-init.js"></script>
+  <script src="newtab.js"></script>
+</body>
+</html>

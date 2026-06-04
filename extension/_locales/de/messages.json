@@ -1,0 +1,593 @@
+{
+  "extName": {
+    "message": "NewTabPage - Tabs, KI-Tools & Arbeitsbereiche organisieren"
+  },
+  "extDescription": {
+    "message": "Organisiere Tabs, KI-Tools, Lesezeichen und Projekte in übersichtlichen Arbeitsbereichen. Schnell, minimalistisch und datenschutzorientiert."
+  },
+  "pages": {
+    "message": "Seiten"
+  },
+  "cancel": {
+    "message": "Abbrechen"
+  },
+  "save": {
+    "message": "Speichern"
+  },
+  "delete": {
+    "message": "Löschen"
+  },
+  "add": {
+    "message": "Hinzufügen"
+  },
+  "close": {
+    "message": "Schließen"
+  },
+  "edit": {
+    "message": "Bearbeiten"
+  },
+  "rename": {
+    "message": "Umbenennen"
+  },
+  "remove": {
+    "message": "Entfernen"
+  },
+  "duplicate": {
+    "message": "Duplizieren"
+  },
+  "tooltipAnalytics": {
+    "message": "Statistiken"
+  },
+  "tooltipSettings": {
+    "message": "Einstellungen"
+  },
+  "lightMode": {
+    "message": "Heller Modus"
+  },
+  "darkMode": {
+    "message": "Dunkler Modus"
+  },
+  "bgImageSet": {
+    "message": "Benutzerdefiniertes Bilderset"
+  },
+  "settings": {
+    "message": "Einstellungen"
+  },
+  "theme": {
+    "message": "Design"
+  },
+  "themeDesc": {
+    "message": "Heller oder dunkler Modus"
+  },
+  "themeLight": {
+    "message": "Hell"
+  },
+  "themeDark": {
+    "message": "Dunkel"
+  },
+  "themeAuto": {
+    "message": "Automatisch"
+  },
+  "openInNewTab": {
+    "message": "In neuem Tab öffnen"
+  },
+  "openInNewTabDesc": {
+    "message": "Links werden immer in einem neuen Tab geöffnet"
+  },
+  "background": {
+    "message": "Hintergrund"
+  },
+  "noImage": {
+    "message": "Kein Bild"
+  },
+  "chooseImage": {
+    "message": "Auswählen"
+  },
+  "removeImage": {
+    "message": "Entfernen"
+  },
+  "language": {
+    "message": "Sprache"
+  },
+  "languageDesc": {
+    "message": "Oberflächensprache"
+  },
+  "createdBy": {
+    "message": "Erstellt von"
+  },
+  "analytics": {
+    "message": "Statistiken"
+  },
+  "yesterday": {
+    "message": "Gestern"
+  },
+  "days7": {
+    "message": "7 Tage"
+  },
+  "days30": {
+    "message": "30 Tage"
+  },
+  "loadingHistory": {
+    "message": "Verlauf wird geladen…"
+  },
+  "pageVisits": {
+    "message": "Seitenbesuche"
+  },
+  "uniquePages": {
+    "message": "Eindeutige Seiten"
+  },
+  "topSites": {
+    "message": "Meistbesuchte Seiten"
+  },
+  "activityByDay": {
+    "message": "Aktivität nach Tag"
+  },
+  "activityByHour": {
+    "message": "Aktivität nach Stunde"
+  },
+  "daySun": {
+    "message": "So"
+  },
+  "dayMon": {
+    "message": "Mo"
+  },
+  "dayTue": {
+    "message": "Di"
+  },
+  "dayWed": {
+    "message": "Mi"
+  },
+  "dayThu": {
+    "message": "Do"
+  },
+  "dayFri": {
+    "message": "Fr"
+  },
+  "daySat": {
+    "message": "Sa"
+  },
+  "addSiteTitle": {
+    "message": "Website hinzufügen"
+  },
+  "urlLabel": {
+    "message": "URL"
+  },
+  "urlPlaceholder": {
+    "message": "figma.com oder URL einfügen"
+  },
+  "titleLabel": {
+    "message": "Titel"
+  },
+  "titleAutoFill": {
+    "message": "Automatisch aus URL ausgefüllt"
+  },
+  "openTabs": {
+    "message": "Offene Tabs"
+  },
+  "history": {
+    "message": "Verlauf"
+  },
+  "popular": {
+    "message": "Beliebt"
+  },
+  "addSiteBtn": {
+    "message": "Website hinzufügen"
+  },
+  "siteErrorTitle": {
+    "message": "Bitte einen Titel eingeben."
+  },
+  "siteErrorUrl": {
+    "message": "Bitte eine URL eingeben."
+  },
+  "siteErrorUrlFormat": {
+    "message": "Die URL scheint nicht korrekt zu sein."
+  },
+  "editSiteTitle": {
+    "message": "Website bearbeiten"
+  },
+  "renameTab": {
+    "message": "Tab umbenennen"
+  },
+  "tabName": {
+    "message": "Tab-Name"
+  },
+  "tabNamePlaceholder": {
+    "message": "z.B. Arbeit"
+  },
+  "addSectionTitle": {
+    "message": "Abschnittstitel hinzufügen"
+  },
+  "renameSectionTitle": {
+    "message": "Titel umbenennen"
+  },
+  "sectionTitleLabel": {
+    "message": "Titel"
+  },
+  "sectionTitlePlaceholder": {
+    "message": "z.B. Soziales"
+  },
+  "confirmDeleteFolderTitle": {
+    "message": "\"$1\" löschen?"
+  },
+  "confirmDeleteFolderDesc": {
+    "message": "Alle Gruppen und Websites in diesem Ordner werden entfernt."
+  },
+  "confirmDeleteGroupTitle": {
+    "message": "\"$1\" löschen?"
+  },
+  "confirmDeleteGroupDesc": {
+    "message": "Alle Websites werden entfernt."
+  },
+  "groupSettingsTitle": {
+    "message": "Gruppeneinstellungen"
+  },
+  "groupNamePlaceholder": {
+    "message": "Gruppenname"
+  },
+  "groupShowUrl": {
+    "message": "URL anzeigen"
+  },
+  "groupShowNames": {
+    "message": "Namen anzeigen"
+  },
+  "viewList": {
+    "message": "Liste"
+  },
+  "viewIcons": {
+    "message": "Symbole"
+  },
+  "viewCards": {
+    "message": "Karten"
+  },
+  "tooltipDeleteGroup": {
+    "message": "Gruppe löschen"
+  },
+  "tooltipAddGroup": {
+    "message": "Gruppe hinzufügen"
+  },
+  "tooltipAddSite": {
+    "message": "Website hinzufügen"
+  },
+  "tooltipAddWidget": {
+    "message": "Widget hinzufügen"
+  },
+  "tooltipNewFolder": {
+    "message": "Neuer Ordner"
+  },
+  "addWebsite": {
+    "message": "Website hinzufügen"
+  },
+  "addWidget": {
+    "message": "Widget hinzufügen"
+  },
+  "deleteGroup": {
+    "message": "Gruppe löschen"
+  },
+  "addTitleShort": {
+    "message": "Titel hinzufügen"
+  },
+  "deleteFolderMenu": {
+    "message": "Ordner löschen"
+  },
+  "newGroup": {
+    "message": "Neue Gruppe"
+  },
+  "renameFolder": {
+    "message": "Ordner umbenennen"
+  },
+  "ctxOpenNewTab": {
+    "message": "In neuem Tab öffnen"
+  },
+  "ctxEdit": {
+    "message": "Bearbeiten"
+  },
+  "ctxDuplicate": {
+    "message": "Duplizieren"
+  },
+  "ctxCopyUrl": {
+    "message": "URL kopieren"
+  },
+  "ctxRemove": {
+    "message": "Entfernen"
+  },
+  "ctxRename": {
+    "message": "Umbenennen"
+  },
+  "ctxMoveToFolder": {
+    "message": "In Ordner verschieben"
+  },
+  "ctxDeleteGroup": {
+    "message": "Gruppe löschen"
+  },
+  "ctxAddWebsite": {
+    "message": "Website hinzufügen"
+  },
+  "ctxSettings": {
+    "message": "Einstellungen"
+  },
+  "ctxAddGroup": {
+    "message": "Gruppe hinzufügen"
+  },
+  "toastStorageError": {
+    "message": "Änderungen konnten nicht gespeichert werden — Speicherfehler"
+  },
+  "toastUrlCopied": {
+    "message": "URL kopiert"
+  },
+  "toastDuplicated": {
+    "message": "Dupliziert"
+  },
+  "toastTitleAdded": {
+    "message": "Titel hinzugefügt"
+  },
+  "toastTitleUpdated": {
+    "message": "Titel aktualisiert"
+  },
+  "toastSiteUpdated": {
+    "message": "Website aktualisiert"
+  },
+  "toastWidgetAdded": {
+    "message": "Widget hinzugefügt"
+  },
+  "toastWidgetUpdated": {
+    "message": "Widget aktualisiert"
+  },
+  "toastDeletedFolder": {
+    "message": "Ordner $1 gelöscht"
+  },
+  "toastDeletedGroup": {
+    "message": "$1 gelöscht"
+  },
+  "toastMovedTo": {
+    "message": "Nach $1 verschoben"
+  },
+  "toastRemovedSite": {
+    "message": "$1 entfernt"
+  },
+  "toastFolderCreated": {
+    "message": "Ordner $1 erstellt"
+  },
+  "toastGroupAdded": {
+    "message": "Gruppe $1 hinzugefügt"
+  },
+  "toastAddedSite": {
+    "message": "$1 hinzugefügt"
+  },
+  "toastRemovedTitle": {
+    "message": "$1 entfernt"
+  },
+  "toastRemovedWidget": {
+    "message": "Widget $1 entfernt"
+  },
+  "addWidgetTitle": {
+    "message": "Widget hinzufügen"
+  },
+  "widgetClockLabel": {
+    "message": "Uhr"
+  },
+  "widgetClockDesc": {
+    "message": "Weltzeitzonen"
+  },
+  "widgetWeatherLabel": {
+    "message": "Wetter"
+  },
+  "widgetWeatherDesc": {
+    "message": "Aktuelle Bedingungen"
+  },
+  "widgetPantoneLabel": {
+    "message": "Pantone® Farbe"
+  },
+  "widgetPantoneDesc": {
+    "message": "Zufällige Farbe des Tages"
+  },
+  "widgetStocksLabel": {
+    "message": "Aktien"
+  },
+  "widgetStocksDesc": {
+    "message": "Kursdiagramm & Ticker"
+  },
+  "widgetActivityLabel": {
+    "message": "Aktivität"
+  },
+  "widgetActivityDesc": {
+    "message": "Browserverlauf-Raster"
+  },
+  "widgetLifeLabel": {
+    "message": "Leben in Wochen"
+  },
+  "widgetLifeDesc": {
+    "message": "Dein Leben visualisiert"
+  },
+  "preview": {
+    "message": "Vorschau"
+  },
+  "stocksTypeLabel": {
+    "message": "Typ"
+  },
+  "editClockTitle": {
+    "message": "Uhr bearbeiten"
+  },
+  "clockAddZone": {
+    "message": "+ Zeitzone hinzufügen"
+  },
+  "clockShowDate": {
+    "message": "Datum anzeigen"
+  },
+  "clockSearchTimezone": {
+    "message": "Zeitzone suchen…"
+  },
+  "tooltipClockRemove": {
+    "message": "Entfernen"
+  },
+  "editWeatherTitle": {
+    "message": "Wetter bearbeiten"
+  },
+  "weatherCityLabel": {
+    "message": "Stadt (leer lassen für automatischen Standort)"
+  },
+  "weatherCityPlaceholder": {
+    "message": "z.B. Berlin, München, Wien"
+  },
+  "weatherCelsius": {
+    "message": "Celsius °C"
+  },
+  "weatherFahrenheit": {
+    "message": "Fahrenheit °F"
+  },
+  "weatherLoading": {
+    "message": "Wetter wird geladen…"
+  },
+  "weatherUnavailable": {
+    "message": "Wetter nicht verfügbar"
+  },
+  "weatherCityNotFound": {
+    "message": "Stadt nicht gefunden"
+  },
+  "weatherLocationPrompt": {
+    "message": "Standort erlauben oder Stadt in Bearbeiten festlegen"
+  },
+  "editStocksTitle": {
+    "message": "Aktien bearbeiten"
+  },
+  "stocksTopStocks": {
+    "message": "Top-Aktien"
+  },
+  "stocksTopCrypto": {
+    "message": "Top-Kryptowährungen"
+  },
+  "stocksCustom": {
+    "message": "Benutzerdefiniert"
+  },
+  "stocksPlaceholder": {
+    "message": "z.B. AAPL, BTC-USD"
+  },
+  "editActivityTitle": {
+    "message": "Aktivität bearbeiten"
+  },
+  "activityLast30Days": {
+    "message": "Letzte 30 Tage"
+  },
+  "activityLast90Days": {
+    "message": "Letzte 90 Tage"
+  },
+  "activityNoData": {
+    "message": "Keine Daten für diesen Zeitraum"
+  },
+  "activityNoAccess": {
+    "message": "Kein Zugriff auf den Verlauf"
+  },
+  "tooltipPantoneRefresh": {
+    "message": "Neue Farbe"
+  },
+  "tooltipPantoneCopy": {
+    "message": "Hex kopieren"
+  },
+  "transparent": {
+    "message": "Transparent"
+  },
+  "customColor": {
+    "message": "Benutzerdefinierte Farbe"
+  },
+  "editLifeTitle": {
+    "message": "Leben in Wochen"
+  },
+  "lifeDobLabel": {
+    "message": "Geburtsdatum"
+  },
+  "lifeExpLabel": {
+    "message": "Lebenserwartung (Jahre)"
+  },
+  "lifeSetDob": {
+    "message": "Geburtsdatum in Bearbeiten festlegen"
+  },
+  "dobDay": {
+    "message": "Tag"
+  },
+  "dobMonth": {
+    "message": "Monat"
+  },
+  "dobYear": {
+    "message": "Jahr"
+  },
+  "groupAllTabs": {
+    "message": "Alle Tabs"
+  },
+  "folderBookmarks": {
+    "message": "Lesezeichen"
+  },
+  "defaultFolder": {
+    "message": "Ordner"
+  },
+  "bookmarkOthers": {
+    "message": "Andere"
+  },
+  "weatherFeelsLike": {
+    "message": "Gefühlt $1"
+  },
+  "weatherGeocodingFailed": {
+    "message": "Standortbestimmung fehlgeschlagen"
+  },
+  "onboardingTitle": {
+    "message": "Neue Tab-Seite"
+  },
+  "onboardingSub": {
+    "message": "Verwandle Tab-Chaos in übersichtliche Arbeitsbereiche."
+  },
+  "onboardingSetup": {
+    "message": "Neuen Tab einrichten"
+  },
+  "addNewGroup": {
+    "message": "Neue Gruppe hinzufügen"
+  },
+  "addNewFolder": {
+    "message": "Neuen Ordner hinzufügen"
+  },
+  "startEmpty": {
+    "message": "Leer starten"
+  },
+  "blankWorkspace": {
+    "message": "Leerer Arbeitsbereich"
+  },
+  "blankGroup": {
+    "message": "Leere Gruppe"
+  },
+  "blankFolder": {
+    "message": "Leerer Ordner"
+  },
+  "currentlyOpen": {
+    "message": "Aktuell geöffnet"
+  },
+  "topSitesCard": {
+    "message": "Top-Websites"
+  },
+  "recentlyVisited": {
+    "message": "Zuletzt besucht"
+  },
+  "aiWorkspaceName": {
+    "message": "KI-Arbeitsbereich"
+  },
+  "aiWorkspaceMeta": {
+    "message": "$1 Gruppen · $2 Tools"
+  },
+  "importOpenTabs": {
+    "message": "$1 offene Tabs"
+  },
+  "importBookmarks": {
+    "message": "$1 Lesezeichen"
+  },
+  "importFolders": {
+    "message": "$1 Ordner"
+  },
+  "importMostVisited": {
+    "message": "$1 meistbesuchte Seiten"
+  },
+  "importRecentHistory": {
+    "message": "$1 kürzlicher Verlauf"
+  },
+  "mySpace": {
+    "message": "Mein Bereich"
+  },
+  "newFolderName": {
+    "message": "Neuer Ordner"
+  }
+}

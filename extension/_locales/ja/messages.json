@@ -1,0 +1,593 @@
+{
+  "extName": {
+    "message": "NewTabPage - タブ整理・AIツール・ワークスペース"
+  },
+  "extDescription": {
+    "message": "タブ、AIツール、ブックマーク、プロジェクトをすっきりしたワークスペースに整理。高速・シンプル・プライバシー重視。"
+  },
+  "pages": {
+    "message": "ページ"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "delete": {
+    "message": "削除"
+  },
+  "add": {
+    "message": "追加"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "edit": {
+    "message": "編集"
+  },
+  "rename": {
+    "message": "名前変更"
+  },
+  "remove": {
+    "message": "削除"
+  },
+  "duplicate": {
+    "message": "複製"
+  },
+  "tooltipAnalytics": {
+    "message": "アナリティクス"
+  },
+  "tooltipSettings": {
+    "message": "設定"
+  },
+  "lightMode": {
+    "message": "ライトモード"
+  },
+  "darkMode": {
+    "message": "ダークモード"
+  },
+  "bgImageSet": {
+    "message": "カスタム画像セット"
+  },
+  "settings": {
+    "message": "設定"
+  },
+  "theme": {
+    "message": "テーマ"
+  },
+  "themeDesc": {
+    "message": "ライトまたはダークモード"
+  },
+  "themeLight": {
+    "message": "ライト"
+  },
+  "themeDark": {
+    "message": "ダーク"
+  },
+  "themeAuto": {
+    "message": "自動"
+  },
+  "openInNewTab": {
+    "message": "新しいタブで開く"
+  },
+  "openInNewTabDesc": {
+    "message": "リンクは常に新しいタブで開きます"
+  },
+  "background": {
+    "message": "背景"
+  },
+  "noImage": {
+    "message": "画像なし"
+  },
+  "chooseImage": {
+    "message": "選択"
+  },
+  "removeImage": {
+    "message": "削除"
+  },
+  "language": {
+    "message": "言語"
+  },
+  "languageDesc": {
+    "message": "インターフェース言語"
+  },
+  "createdBy": {
+    "message": "作成者"
+  },
+  "analytics": {
+    "message": "アナリティクス"
+  },
+  "yesterday": {
+    "message": "昨日"
+  },
+  "days7": {
+    "message": "7日間"
+  },
+  "days30": {
+    "message": "30日間"
+  },
+  "loadingHistory": {
+    "message": "履歴を読み込み中…"
+  },
+  "pageVisits": {
+    "message": "ページ訪問数"
+  },
+  "uniquePages": {
+    "message": "ユニークページ数"
+  },
+  "topSites": {
+    "message": "よく見るサイト"
+  },
+  "activityByDay": {
+    "message": "曜日別アクティビティ"
+  },
+  "activityByHour": {
+    "message": "時間別アクティビティ"
+  },
+  "daySun": {
+    "message": "日"
+  },
+  "dayMon": {
+    "message": "月"
+  },
+  "dayTue": {
+    "message": "火"
+  },
+  "dayWed": {
+    "message": "水"
+  },
+  "dayThu": {
+    "message": "木"
+  },
+  "dayFri": {
+    "message": "金"
+  },
+  "daySat": {
+    "message": "土"
+  },
+  "addSiteTitle": {
+    "message": "サイトを追加"
+  },
+  "urlLabel": {
+    "message": "URL"
+  },
+  "urlPlaceholder": {
+    "message": "figma.com またはURLを貼り付け"
+  },
+  "titleLabel": {
+    "message": "タイトル"
+  },
+  "titleAutoFill": {
+    "message": "URLから自動入力"
+  },
+  "openTabs": {
+    "message": "開いているタブ"
+  },
+  "history": {
+    "message": "履歴"
+  },
+  "popular": {
+    "message": "人気"
+  },
+  "addSiteBtn": {
+    "message": "サイトを追加"
+  },
+  "siteErrorTitle": {
+    "message": "タイトルを入力してください。"
+  },
+  "siteErrorUrl": {
+    "message": "URLを入力してください。"
+  },
+  "siteErrorUrlFormat": {
+    "message": "URLの形式が正しくありません。"
+  },
+  "editSiteTitle": {
+    "message": "サイトを編集"
+  },
+  "renameTab": {
+    "message": "タブ名を変更"
+  },
+  "tabName": {
+    "message": "タブ名"
+  },
+  "tabNamePlaceholder": {
+    "message": "例：仕事"
+  },
+  "addSectionTitle": {
+    "message": "セクションタイトルを追加"
+  },
+  "renameSectionTitle": {
+    "message": "タイトルを変更"
+  },
+  "sectionTitleLabel": {
+    "message": "タイトル"
+  },
+  "sectionTitlePlaceholder": {
+    "message": "例：ソーシャル"
+  },
+  "confirmDeleteFolderTitle": {
+    "message": "「$1」を削除しますか？"
+  },
+  "confirmDeleteFolderDesc": {
+    "message": "このフォルダ内のすべてのグループとサイトが削除されます。"
+  },
+  "confirmDeleteGroupTitle": {
+    "message": "「$1」を削除しますか？"
+  },
+  "confirmDeleteGroupDesc": {
+    "message": "すべてのサイトが削除されます。"
+  },
+  "groupSettingsTitle": {
+    "message": "グループ設定"
+  },
+  "groupNamePlaceholder": {
+    "message": "グループ名"
+  },
+  "groupShowUrl": {
+    "message": "URLを表示"
+  },
+  "groupShowNames": {
+    "message": "名前を表示"
+  },
+  "viewList": {
+    "message": "リスト"
+  },
+  "viewIcons": {
+    "message": "アイコン"
+  },
+  "viewCards": {
+    "message": "カード"
+  },
+  "tooltipDeleteGroup": {
+    "message": "グループを削除"
+  },
+  "tooltipAddGroup": {
+    "message": "グループを追加"
+  },
+  "tooltipAddSite": {
+    "message": "サイトを追加"
+  },
+  "tooltipAddWidget": {
+    "message": "ウィジェットを追加"
+  },
+  "tooltipNewFolder": {
+    "message": "新しいフォルダ"
+  },
+  "addWebsite": {
+    "message": "サイトを追加"
+  },
+  "addWidget": {
+    "message": "ウィジェットを追加"
+  },
+  "deleteGroup": {
+    "message": "グループを削除"
+  },
+  "addTitleShort": {
+    "message": "タイトルを追加"
+  },
+  "deleteFolderMenu": {
+    "message": "フォルダを削除"
+  },
+  "newGroup": {
+    "message": "新しいグループ"
+  },
+  "renameFolder": {
+    "message": "フォルダ名を変更"
+  },
+  "ctxOpenNewTab": {
+    "message": "新しいタブで開く"
+  },
+  "ctxEdit": {
+    "message": "編集"
+  },
+  "ctxDuplicate": {
+    "message": "複製"
+  },
+  "ctxCopyUrl": {
+    "message": "URLをコピー"
+  },
+  "ctxRemove": {
+    "message": "削除"
+  },
+  "ctxRename": {
+    "message": "名前変更"
+  },
+  "ctxMoveToFolder": {
+    "message": "フォルダに移動"
+  },
+  "ctxDeleteGroup": {
+    "message": "グループを削除"
+  },
+  "ctxAddWebsite": {
+    "message": "サイトを追加"
+  },
+  "ctxSettings": {
+    "message": "設定"
+  },
+  "ctxAddGroup": {
+    "message": "グループを追加"
+  },
+  "toastStorageError": {
+    "message": "変更を保存できませんでした — ストレージエラー"
+  },
+  "toastUrlCopied": {
+    "message": "URLをコピーしました"
+  },
+  "toastDuplicated": {
+    "message": "複製しました"
+  },
+  "toastTitleAdded": {
+    "message": "タイトルを追加しました"
+  },
+  "toastTitleUpdated": {
+    "message": "タイトルを更新しました"
+  },
+  "toastSiteUpdated": {
+    "message": "サイトを更新しました"
+  },
+  "toastWidgetAdded": {
+    "message": "ウィジェットを追加しました"
+  },
+  "toastWidgetUpdated": {
+    "message": "ウィジェットを更新しました"
+  },
+  "toastDeletedFolder": {
+    "message": "フォルダ「$1」を削除しました"
+  },
+  "toastDeletedGroup": {
+    "message": "「$1」を削除しました"
+  },
+  "toastMovedTo": {
+    "message": "「$1」に移動しました"
+  },
+  "toastRemovedSite": {
+    "message": "「$1」を削除しました"
+  },
+  "toastFolderCreated": {
+    "message": "フォルダ「$1」を作成しました"
+  },
+  "toastGroupAdded": {
+    "message": "グループ「$1」を追加しました"
+  },
+  "toastAddedSite": {
+    "message": "「$1」を追加しました"
+  },
+  "toastRemovedTitle": {
+    "message": "「$1」を削除しました"
+  },
+  "toastRemovedWidget": {
+    "message": "ウィジェット「$1」を削除しました"
+  },
+  "addWidgetTitle": {
+    "message": "ウィジェットを追加"
+  },
+  "widgetClockLabel": {
+    "message": "時計"
+  },
+  "widgetClockDesc": {
+    "message": "世界のタイムゾーン"
+  },
+  "widgetWeatherLabel": {
+    "message": "天気"
+  },
+  "widgetWeatherDesc": {
+    "message": "現在の気象状況"
+  },
+  "widgetPantoneLabel": {
+    "message": "Pantone® カラー"
+  },
+  "widgetPantoneDesc": {
+    "message": "今日のランダムカラー"
+  },
+  "widgetStocksLabel": {
+    "message": "株価"
+  },
+  "widgetStocksDesc": {
+    "message": "価格チャートとティッカー"
+  },
+  "widgetActivityLabel": {
+    "message": "アクティビティ"
+  },
+  "widgetActivityDesc": {
+    "message": "ブラウジングアクティビティグリッド"
+  },
+  "widgetLifeLabel": {
+    "message": "人生の週数"
+  },
+  "widgetLifeDesc": {
+    "message": "あなたの人生を可視化"
+  },
+  "preview": {
+    "message": "プレビュー"
+  },
+  "stocksTypeLabel": {
+    "message": "種類"
+  },
+  "editClockTitle": {
+    "message": "時計を編集"
+  },
+  "clockAddZone": {
+    "message": "+ タイムゾーンを追加"
+  },
+  "clockShowDate": {
+    "message": "日付を表示"
+  },
+  "clockSearchTimezone": {
+    "message": "タイムゾーンを検索…"
+  },
+  "tooltipClockRemove": {
+    "message": "削除"
+  },
+  "editWeatherTitle": {
+    "message": "天気を編集"
+  },
+  "weatherCityLabel": {
+    "message": "都市（空欄で現在地を自動取得）"
+  },
+  "weatherCityPlaceholder": {
+    "message": "例：東京、大阪、New York"
+  },
+  "weatherCelsius": {
+    "message": "摂氏 °C"
+  },
+  "weatherFahrenheit": {
+    "message": "華氏 °F"
+  },
+  "weatherLoading": {
+    "message": "天気を読み込み中…"
+  },
+  "weatherUnavailable": {
+    "message": "天気情報を取得できません"
+  },
+  "weatherCityNotFound": {
+    "message": "都市が見つかりません"
+  },
+  "weatherLocationPrompt": {
+    "message": "位置情報を許可するか、編集で都市を設定してください"
+  },
+  "editStocksTitle": {
+    "message": "株価を編集"
+  },
+  "stocksTopStocks": {
+    "message": "人気銘柄"
+  },
+  "stocksTopCrypto": {
+    "message": "人気仮想通貨"
+  },
+  "stocksCustom": {
+    "message": "カスタム"
+  },
+  "stocksPlaceholder": {
+    "message": "例：AAPL、BTC-USD"
+  },
+  "editActivityTitle": {
+    "message": "アクティビティを編集"
+  },
+  "activityLast30Days": {
+    "message": "過去30日間"
+  },
+  "activityLast90Days": {
+    "message": "過去90日間"
+  },
+  "activityNoData": {
+    "message": "この期間のデータがありません"
+  },
+  "activityNoAccess": {
+    "message": "履歴へのアクセスがありません"
+  },
+  "tooltipPantoneRefresh": {
+    "message": "新しい色"
+  },
+  "tooltipPantoneCopy": {
+    "message": "16進数をコピー"
+  },
+  "transparent": {
+    "message": "透明"
+  },
+  "customColor": {
+    "message": "カスタムカラー"
+  },
+  "editLifeTitle": {
+    "message": "人生の週数"
+  },
+  "lifeDobLabel": {
+    "message": "生年月日"
+  },
+  "lifeExpLabel": {
+    "message": "平均寿命（年）"
+  },
+  "lifeSetDob": {
+    "message": "編集で生年月日を設定してください"
+  },
+  "dobDay": {
+    "message": "日"
+  },
+  "dobMonth": {
+    "message": "月"
+  },
+  "dobYear": {
+    "message": "年"
+  },
+  "groupAllTabs": {
+    "message": "すべてのタブ"
+  },
+  "folderBookmarks": {
+    "message": "ブックマーク"
+  },
+  "defaultFolder": {
+    "message": "フォルダ"
+  },
+  "bookmarkOthers": {
+    "message": "その他"
+  },
+  "weatherFeelsLike": {
+    "message": "体感気温 $1"
+  },
+  "weatherGeocodingFailed": {
+    "message": "位置情報の取得に失敗しました"
+  },
+  "onboardingTitle": {
+    "message": "新しいタブページ"
+  },
+  "onboardingSub": {
+    "message": "タブの混乱を整理されたワークスペースに変えましょう。"
+  },
+  "onboardingSetup": {
+    "message": "新しいタブを設定する"
+  },
+  "addNewGroup": {
+    "message": "新しいグループを追加"
+  },
+  "addNewFolder": {
+    "message": "新しいフォルダを追加"
+  },
+  "startEmpty": {
+    "message": "空白から始める"
+  },
+  "blankWorkspace": {
+    "message": "空白のワークスペース"
+  },
+  "blankGroup": {
+    "message": "空白のグループ"
+  },
+  "blankFolder": {
+    "message": "空白のフォルダ"
+  },
+  "currentlyOpen": {
+    "message": "現在開いているもの"
+  },
+  "topSitesCard": {
+    "message": "よく見るサイト"
+  },
+  "recentlyVisited": {
+    "message": "最近訪問したサイト"
+  },
+  "aiWorkspaceName": {
+    "message": "AIワークスペース"
+  },
+  "aiWorkspaceMeta": {
+    "message": "$1 グループ · $2 ツール"
+  },
+  "importOpenTabs": {
+    "message": "$1 個の開いているタブ"
+  },
+  "importBookmarks": {
+    "message": "$1 件のブックマーク"
+  },
+  "importFolders": {
+    "message": "$1 個のフォルダ"
+  },
+  "importMostVisited": {
+    "message": "$1 件のよく見るサイト"
+  },
+  "importRecentHistory": {
+    "message": "$1 件の最近の履歴"
+  },
+  "mySpace": {
+    "message": "マイスペース"
+  },
+  "newFolderName": {
+    "message": "新しいフォルダ"
+  }
+}

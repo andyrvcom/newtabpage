@@ -1,0 +1,593 @@
+{
+  "extName": {
+    "message": "NewTabPage - Organize Tabs, AI Tools & Workspaces"
+  },
+  "extDescription": {
+    "message": "Organize tabs, AI tools, bookmarks, and projects into clean workspaces. Fast, minimal, and privacy-first."
+  },
+  "pages": {
+    "message": "pages"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "add": {
+    "message": "Add"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "rename": {
+    "message": "Rename"
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "duplicate": {
+    "message": "Duplicate"
+  },
+  "tooltipAnalytics": {
+    "message": "Analytics"
+  },
+  "tooltipSettings": {
+    "message": "Settings"
+  },
+  "lightMode": {
+    "message": "Light mode"
+  },
+  "darkMode": {
+    "message": "Dark mode"
+  },
+  "bgImageSet": {
+    "message": "Custom image set"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "theme": {
+    "message": "Theme"
+  },
+  "themeDesc": {
+    "message": "Light or dark mode"
+  },
+  "themeLight": {
+    "message": "Light"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "themeAuto": {
+    "message": "Auto"
+  },
+  "openInNewTab": {
+    "message": "Open in new tab"
+  },
+  "openInNewTabDesc": {
+    "message": "Links always open in a new tab"
+  },
+  "background": {
+    "message": "Background"
+  },
+  "noImage": {
+    "message": "No image"
+  },
+  "chooseImage": {
+    "message": "Choose"
+  },
+  "removeImage": {
+    "message": "Remove"
+  },
+  "language": {
+    "message": "Language"
+  },
+  "languageDesc": {
+    "message": "Interface language"
+  },
+  "createdBy": {
+    "message": "Created by"
+  },
+  "analytics": {
+    "message": "Analytics"
+  },
+  "yesterday": {
+    "message": "Yesterday"
+  },
+  "days7": {
+    "message": "7 days"
+  },
+  "days30": {
+    "message": "30 days"
+  },
+  "loadingHistory": {
+    "message": "Loading history…"
+  },
+  "pageVisits": {
+    "message": "Page visits"
+  },
+  "uniquePages": {
+    "message": "Unique pages"
+  },
+  "topSites": {
+    "message": "Top websites"
+  },
+  "activityByDay": {
+    "message": "Activity by day"
+  },
+  "activityByHour": {
+    "message": "Activity by hour"
+  },
+  "daySun": {
+    "message": "Sun"
+  },
+  "dayMon": {
+    "message": "Mon"
+  },
+  "dayTue": {
+    "message": "Tue"
+  },
+  "dayWed": {
+    "message": "Wed"
+  },
+  "dayThu": {
+    "message": "Thu"
+  },
+  "dayFri": {
+    "message": "Fri"
+  },
+  "daySat": {
+    "message": "Sat"
+  },
+  "addSiteTitle": {
+    "message": "Add a site"
+  },
+  "urlLabel": {
+    "message": "URL"
+  },
+  "urlPlaceholder": {
+    "message": "figma.com or paste URL"
+  },
+  "titleLabel": {
+    "message": "Title"
+  },
+  "titleAutoFill": {
+    "message": "Auto-filled from URL"
+  },
+  "openTabs": {
+    "message": "Open tabs"
+  },
+  "history": {
+    "message": "History"
+  },
+  "popular": {
+    "message": "Popular"
+  },
+  "addSiteBtn": {
+    "message": "Add site"
+  },
+  "siteErrorTitle": {
+    "message": "Enter a title."
+  },
+  "siteErrorUrl": {
+    "message": "Enter a URL."
+  },
+  "siteErrorUrlFormat": {
+    "message": "URL doesn't look right."
+  },
+  "editSiteTitle": {
+    "message": "Edit site"
+  },
+  "renameTab": {
+    "message": "Rename tab"
+  },
+  "tabName": {
+    "message": "Tab name"
+  },
+  "tabNamePlaceholder": {
+    "message": "e.g. Work"
+  },
+  "addSectionTitle": {
+    "message": "Add section title"
+  },
+  "renameSectionTitle": {
+    "message": "Rename title"
+  },
+  "sectionTitleLabel": {
+    "message": "Title"
+  },
+  "sectionTitlePlaceholder": {
+    "message": "e.g. Social"
+  },
+  "confirmDeleteFolderTitle": {
+    "message": "Delete \"$1\"?"
+  },
+  "confirmDeleteFolderDesc": {
+    "message": "All groups and sites in this folder will be removed."
+  },
+  "confirmDeleteGroupTitle": {
+    "message": "Delete \"$1\"?"
+  },
+  "confirmDeleteGroupDesc": {
+    "message": "All sites will be removed."
+  },
+  "groupSettingsTitle": {
+    "message": "Group settings"
+  },
+  "groupNamePlaceholder": {
+    "message": "Group name"
+  },
+  "groupShowUrl": {
+    "message": "Show URL"
+  },
+  "groupShowNames": {
+    "message": "Show names"
+  },
+  "viewList": {
+    "message": "List"
+  },
+  "viewIcons": {
+    "message": "Icons"
+  },
+  "viewCards": {
+    "message": "Cards"
+  },
+  "tooltipDeleteGroup": {
+    "message": "Delete group"
+  },
+  "tooltipAddGroup": {
+    "message": "Add group"
+  },
+  "tooltipAddSite": {
+    "message": "Add website"
+  },
+  "tooltipAddWidget": {
+    "message": "Add widget"
+  },
+  "tooltipNewFolder": {
+    "message": "New folder"
+  },
+  "addWebsite": {
+    "message": "Add website"
+  },
+  "addWidget": {
+    "message": "Add widget"
+  },
+  "deleteGroup": {
+    "message": "Delete group"
+  },
+  "addTitleShort": {
+    "message": "Add title"
+  },
+  "deleteFolderMenu": {
+    "message": "Delete folder"
+  },
+  "newGroup": {
+    "message": "New group"
+  },
+  "renameFolder": {
+    "message": "Rename folder"
+  },
+  "ctxOpenNewTab": {
+    "message": "Open in new tab"
+  },
+  "ctxEdit": {
+    "message": "Edit"
+  },
+  "ctxDuplicate": {
+    "message": "Duplicate"
+  },
+  "ctxCopyUrl": {
+    "message": "Copy URL"
+  },
+  "ctxRemove": {
+    "message": "Remove"
+  },
+  "ctxRename": {
+    "message": "Rename"
+  },
+  "ctxMoveToFolder": {
+    "message": "Move to folder"
+  },
+  "ctxDeleteGroup": {
+    "message": "Delete group"
+  },
+  "ctxAddWebsite": {
+    "message": "Add website"
+  },
+  "ctxSettings": {
+    "message": "Settings"
+  },
+  "ctxAddGroup": {
+    "message": "Add group"
+  },
+  "toastStorageError": {
+    "message": "Could not save changes — storage error"
+  },
+  "toastUrlCopied": {
+    "message": "URL copied"
+  },
+  "toastDuplicated": {
+    "message": "Duplicated"
+  },
+  "toastTitleAdded": {
+    "message": "Title added"
+  },
+  "toastTitleUpdated": {
+    "message": "Title updated"
+  },
+  "toastSiteUpdated": {
+    "message": "Site updated"
+  },
+  "toastWidgetAdded": {
+    "message": "Widget added"
+  },
+  "toastWidgetUpdated": {
+    "message": "Widget updated"
+  },
+  "toastDeletedFolder": {
+    "message": "Deleted folder $1"
+  },
+  "toastDeletedGroup": {
+    "message": "Deleted $1"
+  },
+  "toastMovedTo": {
+    "message": "Moved to $1"
+  },
+  "toastRemovedSite": {
+    "message": "Removed $1"
+  },
+  "toastFolderCreated": {
+    "message": "$1 folder created"
+  },
+  "toastGroupAdded": {
+    "message": "$1 group added"
+  },
+  "toastAddedSite": {
+    "message": "Added $1"
+  },
+  "toastRemovedTitle": {
+    "message": "Removed $1"
+  },
+  "toastRemovedWidget": {
+    "message": "Removed $1 widget"
+  },
+  "addWidgetTitle": {
+    "message": "Add Widget"
+  },
+  "widgetClockLabel": {
+    "message": "Clock"
+  },
+  "widgetClockDesc": {
+    "message": "World time zones"
+  },
+  "widgetWeatherLabel": {
+    "message": "Weather"
+  },
+  "widgetWeatherDesc": {
+    "message": "Current conditions"
+  },
+  "widgetPantoneLabel": {
+    "message": "Pantone Color"
+  },
+  "widgetPantoneDesc": {
+    "message": "Random color of the day"
+  },
+  "widgetStocksLabel": {
+    "message": "Stocks"
+  },
+  "widgetStocksDesc": {
+    "message": "Price chart & ticker"
+  },
+  "widgetActivityLabel": {
+    "message": "Activity"
+  },
+  "widgetActivityDesc": {
+    "message": "Browsing activity grid"
+  },
+  "widgetLifeLabel": {
+    "message": "Life in Weeks"
+  },
+  "widgetLifeDesc": {
+    "message": "Your life visualized"
+  },
+  "preview": {
+    "message": "Preview"
+  },
+  "stocksTypeLabel": {
+    "message": "Type"
+  },
+  "editClockTitle": {
+    "message": "Edit Clock"
+  },
+  "clockAddZone": {
+    "message": "+ Add time zone"
+  },
+  "clockShowDate": {
+    "message": "Show date"
+  },
+  "clockSearchTimezone": {
+    "message": "Search timezone…"
+  },
+  "tooltipClockRemove": {
+    "message": "Remove"
+  },
+  "editWeatherTitle": {
+    "message": "Edit Weather"
+  },
+  "weatherCityLabel": {
+    "message": "City (leave empty for auto location)"
+  },
+  "weatherCityPlaceholder": {
+    "message": "e.g. Warsaw, New York, Tokyo"
+  },
+  "weatherCelsius": {
+    "message": "Celsius °C"
+  },
+  "weatherFahrenheit": {
+    "message": "Fahrenheit °F"
+  },
+  "weatherLoading": {
+    "message": "Loading weather…"
+  },
+  "weatherUnavailable": {
+    "message": "Weather unavailable"
+  },
+  "weatherCityNotFound": {
+    "message": "City not found"
+  },
+  "weatherLocationPrompt": {
+    "message": "Allow location or set city in Edit"
+  },
+  "editStocksTitle": {
+    "message": "Edit Stocks"
+  },
+  "stocksTopStocks": {
+    "message": "Top Stocks"
+  },
+  "stocksTopCrypto": {
+    "message": "Top Crypto"
+  },
+  "stocksCustom": {
+    "message": "Custom"
+  },
+  "stocksPlaceholder": {
+    "message": "e.g. AAPL, BTC-USD"
+  },
+  "editActivityTitle": {
+    "message": "Edit Activity"
+  },
+  "activityLast30Days": {
+    "message": "Last 30 days"
+  },
+  "activityLast90Days": {
+    "message": "Last 90 days"
+  },
+  "activityNoData": {
+    "message": "No data for this period"
+  },
+  "activityNoAccess": {
+    "message": "No history access"
+  },
+  "tooltipPantoneRefresh": {
+    "message": "New color"
+  },
+  "tooltipPantoneCopy": {
+    "message": "Copy hex"
+  },
+  "transparent": {
+    "message": "Transparent"
+  },
+  "customColor": {
+    "message": "Custom color"
+  },
+  "editLifeTitle": {
+    "message": "Life in Weeks"
+  },
+  "lifeDobLabel": {
+    "message": "Date of birth"
+  },
+  "lifeExpLabel": {
+    "message": "Life expectancy (years)"
+  },
+  "lifeSetDob": {
+    "message": "Set your date of birth in Edit"
+  },
+  "dobDay": {
+    "message": "Day"
+  },
+  "dobMonth": {
+    "message": "Month"
+  },
+  "dobYear": {
+    "message": "Year"
+  },
+  "groupAllTabs": {
+    "message": "All Tabs"
+  },
+  "folderBookmarks": {
+    "message": "Bookmarks"
+  },
+  "defaultFolder": {
+    "message": "Folder"
+  },
+  "bookmarkOthers": {
+    "message": "Others"
+  },
+  "weatherFeelsLike": {
+    "message": "Feels like $1"
+  },
+  "weatherGeocodingFailed": {
+    "message": "Geocoding failed"
+  },
+  "onboardingTitle": {
+    "message": "New Tab Page"
+  },
+  "onboardingSub": {
+    "message": "Turn your tab chaos into organized workspaces."
+  },
+  "onboardingSetup": {
+    "message": "Set up your new tab"
+  },
+  "addNewGroup": {
+    "message": "Add new group"
+  },
+  "addNewFolder": {
+    "message": "Add new folder"
+  },
+  "startEmpty": {
+    "message": "Start Empty"
+  },
+  "blankWorkspace": {
+    "message": "Blank workspace"
+  },
+  "blankGroup": {
+    "message": "Blank group"
+  },
+  "blankFolder": {
+    "message": "Blank folder"
+  },
+  "currentlyOpen": {
+    "message": "Currently open"
+  },
+  "topSitesCard": {
+    "message": "Top sites"
+  },
+  "recentlyVisited": {
+    "message": "Recently visited"
+  },
+  "aiWorkspaceName": {
+    "message": "AI Workspace"
+  },
+  "aiWorkspaceMeta": {
+    "message": "$1 groups · $2 tools"
+  },
+  "importOpenTabs": {
+    "message": "$1 Open Tabs"
+  },
+  "importBookmarks": {
+    "message": "$1 bookmarks"
+  },
+  "importFolders": {
+    "message": "$1 folders"
+  },
+  "importMostVisited": {
+    "message": "$1 Most visited"
+  },
+  "importRecentHistory": {
+    "message": "$1 Recent history"
+  },
+  "mySpace": {
+    "message": "My Space"
+  },
+  "newFolderName": {
+    "message": "New Folder"
+  }
+}
